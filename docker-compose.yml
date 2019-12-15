@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  middleware:
+    image: omeruluoglu/mongo-case:latest
+    restart: on-failure
+    container_name: mongo-case-mw_1
+    ports:
+    - 8090:8080
+    networks:
+    - default
