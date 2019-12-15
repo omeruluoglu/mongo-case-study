@@ -2,7 +2,7 @@
 
 ### Prerequisites
 
-There are no special requirements.
+Case url on **http://localhost:8090/** with POST request
 
 ### Installing
 
