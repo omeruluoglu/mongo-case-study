@@ -4,6 +4,19 @@
 
 Case url on **http://localhost:8090/** with POST request
 
+Example Post Request;
+
+{
+    "startDate":"2018-12-01",
+    "endDate":"2019-12-01",
+    "minCount":200,
+    "maxCount":1000
+}
+
+```bash
+curl -H "Content-Type: application/json" -X POST -d '{"startDate":"2018-12-01","endDate":"2019-12-01","minCount":200,"maxCount":1000}' http://localhost:8091/
+```
+
 ### Installing
 
 1\. Clone this repository
