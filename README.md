@@ -2,7 +2,13 @@
 
 ### Prerequisites
 
+## Localhost
+
 Case url on **http://localhost:8090/** with POST request
+
+## Heroku
+
+Case url on **https://mongo-case.herokuapp.com** with POST request
 
 Example Post Request;
 
