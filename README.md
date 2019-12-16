@@ -23,6 +23,10 @@ Example Post Request;
 curl -H "Content-Type: application/json" -X POST -d '{"startDate":"2018-12-01","endDate":"2019-12-01","minCount":200,"maxCount":1000}' http://localhost:8091/
 ```
 
+```bash
+curl -H "Content-Type: application/json" -X POST -d '{"startDate":"2016-12-01","endDate":"2019-12-01","minCount":100,"maxCount":100000}' https://mongo-case.herokuapp.com
+```
+
 ### Installing
 
 1\. Clone this repository
